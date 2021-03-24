@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    background: #333;
+}
+
+#dvPainel {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    position: relative;
+    top: 25px;
+    justify-content: center;
+}
+
+.itemPainel {
+    margin: 5px;
+}
+
+#dvJogo {
+    width: 960px;
+    height: 500px;
+    border: 1px solid #000;
+    background: #000;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#dvBola {
+    position: relative;
+    top: 250px;
+    left: 480px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: #888;
+    border-radius: 50px;
+}
+
+.barra {
+    position: absolute;
+    width: 20px;
+    height: 120px;
+    background: #888;
+    top: 200px;
+    border-radius: 50px;
+}
+
+.esquerda {
+    left: 239px;
+}
+
+.direita {
+    left: 1181px;
+}
+
+.centro {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    top: 20px;
+}
+
+label {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    top: 3px;
+    position: relative;
+    margin-right: 5px;
+}
+
+input#txtPontos {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #888;
+    color: #fff;
+    padding: 5px;
+    pointer-events: none;
+}
+
+button#btnIniciar {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    background: #888888;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 5px;
+}
